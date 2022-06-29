@@ -5,101 +5,135 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 16px;
 }
-.text-1 {
+
+.first-text-p {
   font-family: sans-serif;
   font-weight: 700;
   color: #ae8625;
 }
-.main-text {
+
+.first-text-h1 {
   font-family: sans-serif;
   font-weight: 700;
   color: #ae8625;
   font-size: 35px;
 }
-.text-2 {
+
+.info-text-p {
   font-family: sans-serif;
   color: #272a31;
   margin: 12px;
   padding: 25px;
-  background-color: #d3d3d3;
+  background-color: #fff;
   border: 1px solid #272a31;
   box-shadow: 1px 1px #272a31;
 }
 
-.location-container {
-  align-self: flex-start;
-  margin-left: 10px;
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.date {
+.contact-p {
   font-family: sans-serif;
-  font-weight: 700;
-  color: #ae8625;
-  font-size: 25px;
+  color: #272a31;
+  text-align: center;
 }
 
-.location {
-  font-family: sans-serif;
-  font-weight: 500;
-  font-size: medium;
+.contact-a {
+  color: #272a31;
+  font-weight: 600;
+  align-self: center;
 }
 
 .second-section {
-  background: url(./assets/images/pattern_bg.png);
-  background-color: #272a31;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: center;
+  align-items: baseline;
 }
 
-.main-p-text {
-  color: #d3d3d3;
-  font-family: sans-serif;
-}
-
-.parts {
+.logo-section-holder {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 16px;
-  color: #d3d3d3;
-  background-color: rgba(39, 42, 49, 0.6);
-  padding: 8px;
-}
-
-.join-button {
-  background-color: #ae8625;
-  padding: 25px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.parts-photo {
-  object-fit: contain;
-}
-
-.activity-bar {
-  align-self: center;
-  color: #ae8625;
-  font-family: sans-serif;
-}
-
-.grid-two-parts {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 1fr;
-  gap: 20px
-}
-
-.featured-photo-holder {
-  object-fit: contain;
-}
-
-.featured-photo-holder img {
   width: 100%;
 }
 
-/* Hamburger menu classes */
+.logo-h2 {
+  text-align: center;
+  color: #272a31;
+  font-family: sans-serif;
+  font-weight: 510;
+  line-height: 62px;
+}
+
+.logo-p {
+  text-align: center;
+  margin: 0 40px 0 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: medium;
+}
+
+.saarc-img-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.show-saarc-h2 {
+  text-align: center;
+  color: #272a31;
+  font-family: sans-serif;
+  font-weight: 510;
+  line-height: 62px;
+}
+
+.show-saarc-p {
+  text-align: center;
+  margin: 0 40px 0 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: medium;
+}
+
+.first-summit-img {
+  object-fit: contain;
+  margin: 8px;
+}
+
+.second-summit-img {
+  object-fit: contain;
+  margin: 8px;
+}
+
+.first-summit-img img {
+  width: 100%;
+}
+
+.second-summit-img img {
+  width: 100%;
+}
+
+.summit-info-holder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.partner-1-img {
+  object-fit: contain;
+}
+
+.partner-1-img img {
+  width: 100%;
+}
+
+/* Hamburger Menu */
 
 .nav-link {
   text-decoration: none;
@@ -160,13 +194,4 @@
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-}
-
-@media screen and (min-width: 768px) {
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-      }
 }

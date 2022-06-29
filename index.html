@@ -8,19 +8,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <a href="#"><img src="" alt=""></a>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./aboutme.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sponser</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
     <main>
         <!--First Section-->
-        <div class="first-section-bg">
         <section class="first-section">
+            <div>
             <p class="text-1">Dear Viewer's Welcome to the</p>
             <h1 class="main-text">The 20th SAARC Summit</h1>
+            </div>
             <div class="text-2">The South Asian Association for Regional Cooperation (SAARC) is the regional intergovernmental organization and geopolitical union of states in South Asia.</div>
-            <div>
-            <h2 class="date">2022.05.17 ~ 18</h2>
-            <p class="text-2">@ Islamabad Capital of Pakistan.</p>
+            <div class="location-container">
+            <h3 class="date">2022.05.17 ~ 18</h3>
+            <p class="location">@ Islamabad Capital of Pakistan.</p>
             </div>
         </section>
-        </div>
         <!--Second Section-->
         <section class="second-section">
             <h2 class="main-p-text">Main Program</h2>
@@ -52,12 +79,22 @@
             <button class="join-button">Join SAARC Summit 2022</button>
         </section>
         <!--Third Section-->
-        <section>
+        <section class="third-section">
             <h2>Featured Speakers</h2>
-            <div>
-                             
-            </div>
+            <article class="featured-speakers">
+                <div class="grid-two-parts">
+                    <div class="featured-photo-holder">
+                        <img src="./assets/images/narendra-modi.jpeg" alt="narendra-modi">
+                    </div>
+                    <div class="featured-text-holder">
+                        <h3>Narendra Modi</h3>
+                        <h4>Prime minister of India</h4>
+                        <p>Narendra Modi is the prime minister of India</p>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>
