@@ -105,6 +105,13 @@
   margin: 8px;
 }
 
+.first-summit-img-text {
+  position: absolute;
+  background-color: #ae8625;
+  width: 100%;
+  height: auto;
+}
+
 .second-summit-img {
   object-fit: contain;
   margin: 8px;
@@ -133,7 +140,50 @@
   width: 100%;
 }
 
+.partner-header {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ae8625;
+}
+
+.third-section {
+  display: none;
+}
+
+.partner-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+}
+
+.partner-section-flag {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-saarc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.footer-saarc img {
+  width: 100%;
+}
+
+.saarc-footer-p {
+  color: #ae8625;
+  font-family: sans-serif;
+  font-size: 4vw;
+}
+
 /* Hamburger Menu */
+
+.navbar-img-logo {
+  display: none;
+}
 
 .nav-link {
   text-decoration: none;
@@ -156,7 +206,7 @@
 
 .nav-menu {
   position: fixed;
-  left: -110%;
+  left: -120%;
   top: 70px;
   gap: 0;
   display: flex;
@@ -195,3 +245,4 @@
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
