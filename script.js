@@ -1,39 +1,39 @@
 // Object about the speakers section
 const speakers = [
-    {
-        spimg: './assets/images/narendra-modi.jpeg',
-        spname: 'Narendra Modi',
-        spinfo: 'President of India',
-        spdetails: 'PM of India',
-    },
-    {
-        spimg: './assets/images/ashraf-ghani.webp',
-        spname: 'Ashraf Ghani',
-        spinfo: 'President of Afghanistan',
-        spdetails: 'President of Afghanistan',
-    },
-    {
-        spimg: './assets/images/shahbaz-shareef.jpeg',
-        spname: 'Shahbaz Shareef',
-        spinfo: 'PM of Pakistan',
-        spdetails: 'PM of Pakistan',
-    },
-    {
-        spimg: './assets/images/bangladesh-pm.jpeg',
-        spname: 'Sheikh Hasina',
-        spinfo: 'PM of Bangladesh',
-        spdetails: 'PM of Bangladesh',
-    },
+  {
+    spimg: './assets/images/narendra-modi.jpeg',
+    spname: 'Narendra Modi',
+    spinfo: 'President of India',
+    spdetails: 'PM of India',
+  },
+  {
+    spimg: './assets/images/ashraf-ghani.webp',
+    spname: 'Ashraf Ghani',
+    spinfo: 'President of Afghanistan',
+    spdetails: 'President of Afghanistan',
+  },
+  {
+    spimg: './assets/images/shahbaz-shareef.jpeg',
+    spname: 'Shahbaz Shareef',
+    spinfo: 'PM of Pakistan',
+    spdetails: 'PM of Pakistan',
+  },
+  {
+    spimg: './assets/images/bangladesh-pm.jpeg',
+    spname: 'Sheikh Hasina',
+    spinfo: 'PM of Bangladesh',
+    spdetails: 'PM of Bangladesh',
+  },
 ];
 
 // for each loop to create the section as per the members
 
 speakers.forEach((element, i) => {
-    const thirdSection = document.querySelector('.third-section');
-    const speakerCard = document.createElement('article');
-    speakerCard.classList = 'featured-speakers';
-  
-    const spCard = `
+  const thirdSection = document.querySelector('.third-section');
+  const speakerCard = document.createElement('article');
+  speakerCard.classList = 'featured-speakers';
+
+  const spCard = `
     <div class="grid-two-parts">
         <div class="featured-photo-holder">
            <img src="${speakers[i].spimg}">
@@ -45,16 +45,16 @@ speakers.forEach((element, i) => {
         </div>
     </div>
   `;
-    speakerCard.innerHTML += spCard;
-    thirdSection.appendChild(speakerCard);
-  });
+  speakerCard.innerHTML += spCard;
+  thirdSection.appendChild(speakerCard);
+});
 
-  // Hamburger menu
+// Hamburger menu
 
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navMenu.classList.toggle('active');
-})
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
