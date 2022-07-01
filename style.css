@@ -188,8 +188,8 @@ body {
 }
 
 .nav-menu.active {
-  left: 0px;
-  padding: 0px;
+  left: 0.1px;
+  padding: 0.1px;
   top: 10px;
 }
 
@@ -328,7 +328,7 @@ body {
     justify-content: space-around;
   }
 
-    /* first section */
+  /* first section */
 
   .first-section {
     background: url(./assets/images/main_big.png);
@@ -383,7 +383,7 @@ body {
     margin-top: 2rem;
   }
 
-    /* speaker section */
+  /* speaker section */
 
   .third-part {
     display: flex;
@@ -398,7 +398,7 @@ body {
     gap: 10px;
   }
 
-    /* Partners Section */
+  /* Partners Section */
 
   .partner-section {
     display: flex;
@@ -435,7 +435,7 @@ body {
     padding: 50px;
     align-items: center;
   }
- 
+
   .footer-saarc img {
     width: 100%;
   }
