@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -14,20 +17,20 @@ body {
 }
 
 .first-text-p {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #ae8625;
+  color: #ec5242;
 }
 
 .first-text-h1 {
-  font-family: sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: 700;
-  color: #ae8625;
+  color: #ec5242;
   font-size: 35px;
 }
 
 .info-text-p {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #272a31;
   margin: 12px;
   padding: 25px;
@@ -43,7 +46,7 @@ body {
 }
 
 .contact-p {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #272a31;
   text-align: center;
 }
@@ -71,7 +74,7 @@ body {
 .logo-h2 {
   text-align: center;
   color: #272a31;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 510;
   line-height: 62px;
 }
@@ -79,7 +82,7 @@ body {
 .logo-p {
   text-align: center;
   margin: 0 40px 0 40px;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-size: medium;
 }
@@ -99,7 +102,7 @@ body {
 .show-saarc-h2 {
   text-align: center;
   color: #272a31;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 510;
   line-height: 62px;
 }
@@ -107,7 +110,7 @@ body {
 .show-saarc-p {
   text-align: center;
   margin: 0 40px 0 40px;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-size: medium;
 }
@@ -119,7 +122,7 @@ body {
 
 .first-summit-img-text {
   position: absolute;
-  background-color: #ae8625;
+  background-color: #ec5242;
   width: 100%;
   height: auto;
 }
@@ -153,9 +156,9 @@ body {
 }
 
 .partner-header {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  color: #ae8625;
+  color: #ec5242;
 }
 
 .third-section {
@@ -174,11 +177,28 @@ body {
 }
 
 .footer-saarc {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.footer-sarc-mob {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   margin: 8px;
   padding: 8px;
+  align-items: center;
+}
+
+.footer-mobile {
+  width: 50%;
+}
+
+.footer-mobile img {
+  width: 100%;
 }
 
 .footer-saarc img {
@@ -186,8 +206,8 @@ body {
 }
 
 .saarc-footer-p {
-  color: #ae8625;
-  font-family: sans-serif;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
   font-size: 4vw;
 }
 
@@ -205,7 +225,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #ae8625;
+  color: #ec5242;
 }
 
 .nav-item {
@@ -272,7 +292,7 @@ body {
   display: block;
   width: 35px;
   height: 2px;
-  background-color: #ae8625;
+  background-color: #ec5242;
   margin: 5px;
   align-self: center;
 }
@@ -309,7 +329,7 @@ body {
 
   .nav-item {
     color: #272a31;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .nav-link {
@@ -318,8 +338,8 @@ body {
   }
 
   .nav-button {
-    color: #ae8625;
-    border: 1px solid #ae8625;
+    color: #ec5242;
+    border: 1px solid #ec5242;
     text-decoration: none;
     padding: 5px;
   }
@@ -348,7 +368,7 @@ body {
     justify-content: flex-end;
     padding: 5px;
     gap: 16px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     align-items: baseline;
     padding-right: 12rem;
   }
@@ -398,13 +418,13 @@ body {
     margin: 0;
     align-self: center;
     color: #272a31;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
   }
 
   .logo-text-p {
     display: block;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     width: 75%;
   }
@@ -443,11 +463,28 @@ body {
 
   .footer-saarc {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #272a31;
+    padding: 50px;
   }
 
   .footer-img-saarc {
-    width: 50%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-saarc img {
+    width: 25%;
+  }
+
+  .saarc-footer-p {
+    font-size: 1.5vw;
+    color: #fff;
+  }
+
+  .footer-sarc-mob {
+    display: none;
   }
 }

@@ -24,6 +24,18 @@ const speakers = [
     spinfo: 'PM of Bangladesh',
     spdetails: 'PM of Bangladesh',
   },
+  {
+    spimg: './assets/images/nepal-pm.jpeg',
+    spname: 'Sher Bahadur',
+    spinfo: 'PM of Nepal',
+    spdetails: 'PM of Nepal',
+  },
+  {
+    spimg: './assets/images/pm-srilanka.jpeg',
+    spname: 'Gotabaya Rajapaksa',
+    spinfo: 'PM of Srilanka',
+    spdetails: 'PM of Srilanka',
+  }
 ];
 
 // for each loop to create the section as per the members

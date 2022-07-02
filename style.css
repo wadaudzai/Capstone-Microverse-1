@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -13,26 +16,24 @@ body {
 }
 
 .text-1 {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #ae8625;
+  color: #ec5242;
 }
 
 .main-text {
-  font-family: sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: 700;
-  color: #ae8625;
+  color: #ec5242;
   font-size: 35px;
 }
 
 .text-2 {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #272a31;
   margin: 12px;
   padding: 25px;
-  background-color: #d3d3d3;
-  border: 1px solid #272a31;
-  box-shadow: 1px 1px #272a31;
+  border: 2px solid #fff;
 }
 
 .location-container {
@@ -41,14 +42,14 @@ body {
 }
 
 .date {
-  font-family: sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: 700;
-  color: #ae8625;
+  color: #ec5242;
   font-size: 25px;
 }
 
 .location {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: medium;
 }
@@ -71,7 +72,7 @@ body {
 
 .main-p-text {
   color: #d3d3d3;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .parts {
@@ -88,7 +89,7 @@ body {
 }
 
 .join-button {
-  background-color: #ae8625;
+  background-color: #ec5242;
   padding: 25px;
   color: #fff;
   font-weight: 500;
@@ -100,8 +101,12 @@ body {
 
 .activity-bar {
   align-self: center;
-  color: #ae8625;
-  font-family: sans-serif;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+.activity-bar-p {
+  font-family: 'Lato', sans-serif;
 }
 
 .grid-two-parts {
@@ -126,22 +131,22 @@ body {
 .featured-header {
   color: #272a31;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .featured-name {
   color: #272a31;
-  font-family: sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .featured-info {
-  color: #ae8625;
-  font-family: sans-serif;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
 }
 
 .featured-details {
   color: #272a31;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Hamburger menu classes */
@@ -158,7 +163,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #ae8625;
+  color: #ec5242;
 }
 
 .nav-item {
@@ -205,7 +210,7 @@ body {
   display: block;
   width: 35px;
   height: 2px;
-  background-color: #ae8625;
+  background-color: #ec5242;
   margin: 5px;
 }
 
@@ -275,7 +280,7 @@ body {
 
   .nav-item {
     color: #272a31;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .nav-link {
@@ -284,8 +289,8 @@ body {
   }
 
   .nav-button {
-    color: #ae8625;
-    border: 1px solid #ae8625;
+    color: #ec5242;
+    border: 1px solid #ec5242;
     text-decoration: none;
     padding: 5px;
   }
@@ -314,7 +319,7 @@ body {
     justify-content: flex-end;
     padding: 5px;
     gap: 16px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     align-items: baseline;
     padding-right: 12rem;
   }
@@ -379,7 +384,7 @@ body {
   .parts-link {
     display: block;
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 2rem;
   }
 
@@ -423,7 +428,7 @@ body {
 
   .partner-header {
     color: #fff;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 2vw;
   }
 
@@ -441,8 +446,8 @@ body {
   }
 
   .saarc-footer-p {
-    color: #ae8625;
-    font-family: sans-serif;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
     font-size: 4vw;
   }
 }
