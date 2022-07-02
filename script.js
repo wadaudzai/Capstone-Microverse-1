@@ -35,7 +35,7 @@ const speakers = [
     spname: 'Gotabaya Rajapaksa',
     spinfo: 'PM of Srilanka',
     spdetails: 'PM of Srilanka',
-  }
+  },
 ];
 
 // for each loop to create the section as per the members
